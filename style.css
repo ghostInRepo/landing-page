@@ -12,3 +12,10 @@ body {
   min-height: 100vh;
   line-height: 1.6;
 }
+
+/* Header / Hero section */
+.hero {
+  background: linear-gradient(to right, #1f2937, #2c3e50);
+  color: #fff;
+  padding: 20px 10%;
+}
