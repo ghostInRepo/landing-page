@@ -40,3 +40,19 @@ body {
   color: #3882f6;
   font-size: 28px;
 }
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #3882f6;
+}
