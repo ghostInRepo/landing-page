@@ -145,3 +145,21 @@ body {
 .box {
   width: 220px;
 }
+
+.box-image {
+  height: 180px;
+  border: 4px solid #3882f6;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+.box-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
