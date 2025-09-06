@@ -230,3 +230,60 @@ body {
 .cta-btn:active {
   transform: translateY(0);
 }
+
+/* Footer Section */
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 40px 0;
+  margin-top: auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15%;
+  margin-bottom: 30px;
+}
+
+.footer-column {
+  flex: 1;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.footer-column h3 {
+  color: #f9faf8;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.footer-column p,
+.footer-column a {
+  color: #e5e7eb;
+  margin-bottom: 10px;
+  display: block;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-column a:hover {
+  color: #3882f6;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-icons a {
+  font-size: 20px;
+}
+
+.copyright {
+  padding-top: 20px;
+  border-top: 1px solid #4a5568;
+  margin: 0 15%;
+}
