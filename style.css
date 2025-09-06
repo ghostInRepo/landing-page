@@ -121,3 +121,27 @@ body {
   transform: translateY(0);
 }
 
+/* Information Section */
+.info {
+  padding: 80px 15%;
+  text-align: center;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 50px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 220px;
+}
