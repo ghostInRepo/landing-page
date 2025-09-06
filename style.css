@@ -56,3 +56,28 @@ body {
 .nav-links a:hover {
   color: #3882f6;
 }
+
+.hero-content {
+  display: flex;
+  gap: 50px;
+  padding-bottom: 100px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 25px;
+  max-width: 90%;
+}
