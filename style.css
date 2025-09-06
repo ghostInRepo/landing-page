@@ -163,3 +163,9 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+.box p {
+  color: #6d747d;
+  font-size: 16px;
+  line-height: 1.5;
+}
