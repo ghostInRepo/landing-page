@@ -191,3 +191,42 @@ body {
   font-weight: bold;
   color: #1f2937;
 }
+
+/* Call-to-Action section */
+.cta-section {
+  padding: 100px 15%;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cta-text h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.cta-text p {
+  color: #f0f0f0;
+}
+
+.cta-btn {
+  border: 2px solid white;
+  background-color: transparent;
+}
+
+.cta-btn:hover {
+  background-color: #fff;
+  color: #3882f6;
+}
+
+.cta-btn:active {
+  transform: translateY(0);
+}
